@@ -1,7 +1,7 @@
 ---
 name: "[MOD]"
-about: Describe this issue template's purpose here.
-title: ''
+about: MOD
+title: "[MOD]"
 labels: ''
 assignees: ''
 

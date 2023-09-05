@@ -1,7 +1,7 @@
 ---
 name: "[FEAT]"
 about: FEAT
-title: ''
+title: "[FEAT]"
 labels: ''
 assignees: ''
 
