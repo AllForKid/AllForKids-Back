@@ -1,15 +1,15 @@
-package AFK.AFK.Settings;
+package AFK.AFK.Settings.controller;
 
-import lombok.RequiredArgsConstructor;
+import AFK.AFK.Settings.repository.AskRepository;
+import AFK.AFK.Settings.model.Ask;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/settings/user")
 public class AskController {
     @Autowired
     private AskRepository askRepository;

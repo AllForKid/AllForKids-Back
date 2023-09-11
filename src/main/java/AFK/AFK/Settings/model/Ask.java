@@ -1,4 +1,4 @@
-package AFK.AFK.Settings;
+package AFK.AFK.Settings.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -20,12 +20,12 @@ public class Ask {
     @Column(nullable = false)
     private Boolean is_checked;     // Boolean 값은 0 or 1로 받아올 것
 
-    @Builder
-    public Ask (String title, String content, String email, Boolean is_checked) {
-        this.title = title;
-        this.content = content;
-        this.email = email;
-        this.is_checked = is_checked;       // 기존에 정한 'check' 변수는 예약어로 원래 사용 불가(mysql db 내 대문자 처리도 불가)
-    }
+//    @Builder
+//    public Ask (String title, String content, String email, Boolean is_checked) {
+//        this.title = title;
+//        this.content = content;
+//        this.email = email;
+//        this.is_checked = is_checked;       // 기존에 정한 'check' 변수는 예약어로 원래 사용 불가(mysql db 내 대문자 처리도 불가)
+//    }
 
 }
