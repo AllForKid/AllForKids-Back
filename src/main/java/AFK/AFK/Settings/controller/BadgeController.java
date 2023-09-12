@@ -15,7 +15,6 @@ import java.util.Optional;
 @RestController
 @RequestMapping("api/settings/user")
 public class BadgeController {
-
     @Autowired
     private BadgeService badgeService;
 
