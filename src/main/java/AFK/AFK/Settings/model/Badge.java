@@ -1,6 +1,5 @@
 package AFK.AFK.Settings.model;
 
-import AFK.AFK.Settings.converter.BadgeConverter;
 import jakarta.persistence.*;
 import lombok.Data;
 
