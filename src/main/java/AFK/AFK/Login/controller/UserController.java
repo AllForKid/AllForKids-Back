@@ -29,6 +29,8 @@ public class UserController {
             return ResponseEntity.notFound().build();
         }
     }
+
+    //회원가입
     @PostMapping("/user")
     public User createEntity(@RequestBody User user) {
         return userRepository.save(user);
