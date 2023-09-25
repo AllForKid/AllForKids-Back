@@ -1,4 +1,4 @@
-package AFK.AFK.Settings.model;
+package AFK.AFK.Map.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -7,11 +7,13 @@ import java.util.List;
 
 @Entity
 @Data
-public class MyTravel {
+public class LinkedTravel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+    private String place_name;
+
+    private String linked_name;
     private String address;
     private String working_hour;
     @ElementCollection

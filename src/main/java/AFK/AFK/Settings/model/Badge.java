@@ -1,6 +1,6 @@
 package AFK.AFK.Settings.model;
 
-import AFK.AFK.Settings.converter.BadgeConverter;
+import AFK.AFK.Map.model.MyTravel;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -15,4 +15,7 @@ public class Badge {
     @Column(columnDefinition = "json")
     private String travel_badge;
 
+//    @ManyToOne
+//    @JoinColumn(name = "my_travel_id")
+//    private MyTravel myTravel;
 }
